@@ -1,1 +1,1 @@
-mkdir build; cd build; cmake ..; make; ./IndieStudio
+mkdir build; cd build; cmake -DCMAKE_BUILD_TYPE=RELEASE ..; make; ./IndieStudio
